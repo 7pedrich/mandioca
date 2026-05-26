@@ -19,4 +19,4 @@ Though it lacks:
 ***
 I may or may not continue developing this as I can't be bothered to.
 Anyways, here is a showcase picture:
-![Showcase]()
+![Showcase](./Showcase.png)
