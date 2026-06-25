@@ -1,5 +1,7 @@
+-- # This is just an example on how you can implement it. Delete this script if you want
+
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
-local Shared = ReplicatedStorage.Shared
+local Shared = ReplicatedStorage.Shared --> Module folder location 
 
 local Players = game:GetService("Players")
 local PlayerGui = Players.LocalPlayer.PlayerGui
@@ -10,10 +12,5 @@ function MakeChess()
 		time_per_side = 99999,
 	})
 end
-
-PlayerGui:WaitForChild("Controls"):WaitForChild("ResetEverything").MouseButton1Click:Connect(function()
-    PlayerGui.Chess:Destroy()
-    MakeChess()
-end)
 
 MakeChess()
